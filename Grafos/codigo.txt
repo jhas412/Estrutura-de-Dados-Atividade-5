@@ -55,7 +55,7 @@ public class Grafos {
     public void imprimirListaAdjacencia() {
         System.out.println("Lista de Adjacencia:");
         for (int i = 0; i < listaAdjacencia.size(); i++) {
-            System.out.print("Vertice " + i + ": ");
+            System.out.print("Vértice " + i + ": ");
             for (Integer adj : listaAdjacencia.get(i)) {
                 System.out.print(adj + " ");
             }
